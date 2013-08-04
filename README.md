@@ -1,6 +1,6 @@
 Talks List
 ===========
-http://fudesign2008.github.io/ppt.md/
+http://majj.github.io/ppt.md/
 
 
 ##How to write ppt with markdown file ?
@@ -23,16 +23,7 @@ http://fudesign2008.github.io/ppt.md/
 * use `*` (unordered list) instead of `1. ` (ordered list) if one list has too many contents.
 * use `<pre>` tag for code
 
-##Examples
- * http://fudesign2008.github.io/ppt.md/talks/2013-07/jstoolkit_intro_deck.html
- * http://fudesign2008.github.io/ppt.md/talks/2013-07/html_parser_intro_deck.html
- * http://fudesign2008.github.io/ppt.md/talks/2013-07/jstoolkit_intro_impress.html
- * http://fudesign2008.github.io/ppt.md/talks/2013-07/html_parser_intro_impress.html
-
-
-
 ##Next
  * 整合 impress.js [done]
  * 整合 bespoke.js
-
 
