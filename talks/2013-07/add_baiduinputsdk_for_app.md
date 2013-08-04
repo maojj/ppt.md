@@ -20,9 +20,9 @@
 =====
 ### 将BaiduInputSDK目录copy到工程目录下
 * 注意事项：拷贝文件时，可能有.svn目录需要清理，清理命令:
-```
+<pre>
 find . -name .svn | xargs rm -rf
-```
+</pre>
 
 =====
 ### 添加SDK头文件和静态库
@@ -31,10 +31,12 @@ find . -name .svn | xargs rm -rf
 =====
 ### 添加sdk所需的framework
 
+<pre>
 AudioToolbox.framework
 libz.dylib
 Addressbook.framework （可不要）
 SystemConfiguration.framework
+</pre>
 
 =====
 * 点击工程跟目录 -〉选中Target -〉Build Phrases-〉Link Binary With Libraries->“+”，在”choose frameworks and libraries to add”中搜索并添加
@@ -49,7 +51,7 @@ SystemConfiguration.framework
 =====
 ### 使用SDK
 
-``` objective-c
+<pre>
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // other code
@@ -57,6 +59,7 @@ SystemConfiguration.framework
     BI_RootViewSDK *sdk = [BI_RootViewSDKcreate:nil];
     returnYES;
 }
-```
+</pre>
+
 
 
