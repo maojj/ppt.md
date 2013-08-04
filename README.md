@@ -1,6 +1,6 @@
 Talks List
 ===========
-http://majj.github.io/ppt.md/
+http://maojj.github.io/ppt.md/
 
 
 ##How to write ppt with markdown file ?
